@@ -1,1 +1,50 @@
+body {
+  font-family: Quicksand;
+}
+#login {
+    position: fixed;
+    top:10px;
+    right: 20px;
+}
+#logo{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+.sidenav{
+    float:right;
+    width: 240px;
+    position: absolute;
+    z-index: 1;
+    top: 65px;
+    right: 20px;
+    background: #e0bbe4;
+    overflow-x: hidden;
+    padding: 12px 0;
+    font-weight: small;
+    border-radius: 10px;
+}
+
+.sidenav a{
+    padding: 6px 10px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a: hover{
+    color: #064579;
+}
+
+.main{
+    float: left;
+    font-size: 28px;
+    padding: 100px 40px;
+}
+
+@media screen and (max-height: 450px){
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
 
