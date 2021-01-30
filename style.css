@@ -1,6 +1,9 @@
 body {
   font-family: Quicksand;
 }
+.login{
+    border-radius: 60px;
+}
 #login {
     position: fixed;
     top:10px;
@@ -47,4 +50,3 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
