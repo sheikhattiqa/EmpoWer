@@ -6,6 +6,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: Quicksand, sans-serif;
+  font-size: 20px;
   display: grid;
   justify-items: center;
   align-items: center;
