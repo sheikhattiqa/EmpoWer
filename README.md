@@ -26,4 +26,34 @@ How does our design work?
 
 -Anyone can join
 
+### Features
+**Possible Features**
+
+- Main Categories
+    - Finance - Ida Liu - Head of Citi Private Bank
+        - Accountants
+        - Auditors
+    - Medical - Patricia Bath - Pioneer of Laser Cataract Surgery
+        - Physicians
+        - Surgeons
+        - Registered Nurses
+    - Business - Oprah Winfrey - Philanthropist
+        - Marketing
+        - Sales Managers
+        - Chief Executives
+    - Technology - Annie Easley - NASA Rocket Scientist
+        - Data Science
+        - UI/UX
+        - Software Engineers
+    - Engineering - Ellen Ochoa - First Hispanic woman to go to space
+        - Chemical
+        - Mechanical
+        - Robotics?(Tech)
+    - Political Science - Michelle Obama - Former First Lady
+        - Law
+        - Climate
+        - Human Rights
+- Discussion Tags
+- External resources to women led initiatives in areas of interest
+
 
