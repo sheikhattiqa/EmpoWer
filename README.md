@@ -26,4 +26,4 @@ How does our design work?
 
 -Anyone can join
 
-How does our design work?
+
