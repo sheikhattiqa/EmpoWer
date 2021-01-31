@@ -38,22 +38,62 @@
         <br><br>
         
         <div class="row">
-            <div class="column2"><a href=""><b>Discussion</b></a></div>
-            <div class="column2"><a href=""><b>Networking</b></a></div>
-            <div class="column2"><a href=""><b>Job Support</b></a></div>
-            <div class="column2"><a href=""><b>Education</b></a></div>
-            <div class="column2"><a href=""><b>Role Models</b></a></div>
+            <div class="column2"><a href="discussion.html"><b>Discussion</b></a></div>
+            <div class="column2"><a href="network.html"><b>Networking</b></a></div>
+            <div class="column2"><a href="job-support.html"><b>Job Support</b></a></div>
+            <div class="column2"><a href="education.html"><b>Education</b></a></div>
+            <div class="column2"><a href="role-models.html"><b>Role Models</b></a></div>
         </div>
-        
-        <div>
+        <br>
+        <br>
+        <div id="actionform">
             <h2>Write a Post</h2>
             <form action="/action_page.php">
-                <textarea rows="4" cols="50">
+                <textarea rows="25" cols="100">
                 </textarea>
                 <br><br>
-                <input type="submit" value="Submit">
+                <input class="submit" type="submit" value="Post">
             </form>
+            <br><br><br>
         </div>
+        
+      <div>
+          <button type="button" class="collapsible">Dress code in a political environment</button>
+              <div class="content">
+              <p>Lorem ipsum...</p>
+              </div>
+          <br><br>
+        </div>  
+        
+        <div>
+          <button type="button" class="collapsible">Advocating for reproductive equality</button>
+              <div class="content">
+              <p>Lorem ipsum...</p>
+              </div>
+        </div> 
+        
+        <div>
+          <button type="button" class="collapsible">Lack of female representation in offices</button>
+              <div class="content">
+              <p>Lorem ipsum...</p>
+              </div>
+        </div> 
 </div>  
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
 </html>
