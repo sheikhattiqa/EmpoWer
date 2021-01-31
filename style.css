@@ -6,6 +6,11 @@ a{
     text-decoration: none;
 }
 
+textarea{
+    border-radius: 10px;
+    border-color:#e0bbe4;
+}
+
 #newsfeed{
     padding: 0;
     border-radius: 5px;
@@ -147,5 +152,36 @@ background-color: white;
     height: 50px;
     width: 100px;
     border-radius: 10px;
+    margin-left: 650px;
     
 }
+
+.collapsible {
+  background-color: white;
+    border-color: black;
+    border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: visible;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+}
+
+.content {
+ border-color: black;
+  padding: 0 18px;
+  display: visible;
+  overflow: visible;
+  background-color: white;
+    text-align: left;
+      
+}
+
+
